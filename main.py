@@ -1,3 +1,9 @@
+"""
+This Streamlit web application is designed for revising Japanese language patterns, specifically focusing
+on JLPT-N5 level. Users can select a range of chapters to revise and navigate through different patterns,
+viewing Japanese and English examples.
+"""
+
 import streamlit as st
 import unicodedata
 
