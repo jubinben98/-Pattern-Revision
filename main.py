@@ -39,7 +39,7 @@ empty_space(st, 3)
 with st.container(border=True):
     # select chapters
     st.write("""### Range of chapters to revise""",)
-    chapters = st.slider('chapter-slider', 1, 10, (1, 2), label_visibility="hidden")
+    chapters = st.slider('chapter-slider', 1, 30, (1, 2), label_visibility="hidden")
 
     dict_keys = list(PATTERN_DICT.keys())
     patterns = []
