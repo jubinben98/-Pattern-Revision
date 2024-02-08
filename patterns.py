@@ -89,6 +89,16 @@ PATTERN_DICT = {
                     "There is about 30 teachers in our school."]),
         input_dict(":orange[Quantifier Time period]に ー回　:blue[V]", ["一かげつに　二回　えいが　を　みます。"], ["I go to see film about twice a month."]),
         input_dict(":orange[Quantifier]　だけ/:orange[N]　だけ", ["パワでんき　に　がいこくじんの　しゃいん　が　ひとつ　だけ　います。", "やすみは　にちようび　だけ　です。"], ["There is only one foreign employee in Power Electric.", "Sunday is my only day off."]),
-
+    ],
+    12: [
+        input_dict(":orange[N1]は　:orange[N2]より　:blue[adjective]です。", ["このくるまは　あの　車　より　おおき　です。"], ["This car is bigger than that car."]),
+        input_dict(":orange[N1]と　:orange[N2]と　どちらが　:blue[adjective]ですか。.. :orange[N1/N2]の　ほうが　:blue[adjective]です", ["やきゅうと　サッカと　どちらが　おもしろいですか？　...　サッカの　ほうが　おもしろいです。"], ["Which (do you think) is more interesting, soccer or baseball. (I think) soccer is more interesting."]),
+        input_dict(":orange[N1][のなか]で　なに/だれ/どこ/いつ　が　いちばん　:blue[adjective]ですか。", ["日本りょりで　何が　いちばん　おいしい　ですか？", "１年　で　いつが　いちばん　さむいですか？"],
+                   ["Which of all Japanese dishes is the most delicious?", "What's the coldest time of the year?"])
+    ],
+    13: [
+        input_dict(":orange[N] が　ほしいです。", ["車が　ほしいです。"], ["I want a car."]),
+        input_dict(":blue[Vます-form]たいです。", ["おきなわ　へ　いきたい　です。"], ["I want to go to Okinawa."]),
+        input_dict(":orange[N(place)]へ　:blue[Vます-form]に　いきます/きます/かえります。", ["こべへ　かいものに　いきます。"], ["I am going shopping in Kobe."]),
     ]
 }
