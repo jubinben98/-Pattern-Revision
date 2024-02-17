@@ -100,5 +100,11 @@ PATTERN_DICT = {
         input_dict(":orange[N] が　ほしいです。", ["車が　ほしいです。"], ["I want a car."]),
         input_dict(":blue[Vます-form]たいです。", ["おきなわ　へ　いきたい　です。"], ["I want to go to Okinawa."]),
         input_dict(":orange[N(place)]へ　:blue[Vます-form]に　いきます/きます/かえります。", ["こべへ　かいものに　いきます。"], ["I am going shopping in Kobe."]),
+    ],
+    14: [
+        input_dict(":orange[Vて-form] ください。", ["ボルペンて　なまえ　を　かいて　ください。"], ["Please write your name with ball pen."]),
+        input_dict(":orange[Vて-form] います。", ["ミラさんは　でんわ　を　かけて　います。"], ["Mr. Mira is on the phone."]),
+        input_dict(":orange[Vます-form] ましょうか。", ["あしたも　きましょうか。"], ["Shall I come tomorrow too?"]),
+        input_dict(":orange[N]　が :blue[Verb]", ["雨が　ふります。"], ["It's raining"]),
     ]
 }
